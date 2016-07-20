@@ -1,0 +1,68 @@
+definition:
+  Flight:
+    properties:
+      race_number:
+        name: race_number
+        description: Номер рейса
+        in: formData
+        required: true
+        type: string
+      departure_city:
+        name: departure_city
+        description: Город вылета
+        in: formData
+        required: true
+        type: string
+      arrival_city:
+        name: arrival_city
+        description: Город прилёта
+        in: formData
+        required: true
+        type: string
+      type_aircraft:
+        name: type_aircraft
+        description: Тип самолёта
+        in: formData
+        type: string
+      time:
+        name: time
+        description: Время
+        in: formData
+        required: true
+        type: string
+        format: dateTime
+      actual_time:
+        name: actual_time
+        description: Фактическое время
+        in: formData
+        type: string
+        format: dateTime
+      status:
+        name: status
+        description: Статус
+        in: formData
+        type: string
+        enum: ['вылетел', 'приземлился', 'идет посадка', 'задержан']
+  FlightUpdate:
+    properties:
+      race_number:
+        name: race_number
+        description: Номер рейса
+        in: formData
+        type: string
+      departure_city:
+        name: departure_city
+        description: Город вылета
+        in: formData
+        type: string
+      arrival_city:
+        name: arrival_city
+        description: Город прилёта
+        in: formData
+        type: string
+      time:
+        name: time
+        description: Время
+        in: formData
+        type: string
+        format: dateTime
