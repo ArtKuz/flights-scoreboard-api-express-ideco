@@ -12,8 +12,8 @@ var flights = [
         departure_city: 'Екатеринбург',
         arrival_city: 'Сочи',
         type_aircraft: 'B-757-200',
-        time: Date(2016, 6, 20, 21, 5),
-        actual_time: Date(2016, 6, 20, 21, 5),
+        time: new Date(2016, 6, 20, 21, 5),
+        actual_time: new Date(2016, 6, 20, 21, 5),
         status: 'вылетел'
     },
     {
@@ -21,7 +21,7 @@ var flights = [
         departure_city: 'Екатеринбург',
         arrival_city: 'Москва',
         type_aircraft: 'B-737-800W',
-        time: Date(2016, 6, 20, 21, 25),
+        time: new Date(2016, 6, 20, 21, 25),
         status: 'вылетел'
     },
     {
@@ -29,23 +29,23 @@ var flights = [
         departure_city: 'Екатеринбург',
         arrival_city: 'Москва',
         type_aircraft: 'А-319',
-        time: Date(2016, 6, 20, 21, 30),
-        actual_time: Date(2016, 6, 20, 22, 5)
+        time: new Date(2016, 6, 20, 21, 30),
+        actual_time: new Date(2016, 6, 20, 22, 5)
     },
     {
         race_number: '7R-862',
         departure_city: 'Екатеринбург',
         arrival_city: 'Казань',
         type_aircraft: 'CRJ-100',
-        time: Date(2016, 6, 20, 23, 30),
-        actual_time: Date(2016, 6, 20, 23, 30),
+        time: new Date(2016, 6, 20, 23, 30),
+        actual_time: new Date(2016, 6, 20, 23, 30),
         status: 'приземлился'
     },
     {
         race_number: 'YC-28',
         departure_city: 'Екатеринбург',
         arrival_city: 'Новосибирск',
-        time: Date(2016, 6, 20, 23, 35)
+        time: new Date(2016, 6, 20, 23, 35)
     }
 ];
 
